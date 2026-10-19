@@ -1,0 +1,60 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <!-- A linha abaixo é essencial para o site funcionar bem no celular -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MinhaEstante - Início</title>
+    <!-- Liga esta página ao arquivo CSS externo que está na pasta css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- CABEÇALHO: aparece igual em todas as páginas -->
+    <header>
+        <div class="logo">📚 MinhaEstante</div>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="livros.php">Minha Estante</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+
+    <!-- CORPO DA PÁGINA -->
+    <main>
+
+        <!-- Bloco de destaque -->
+        <section class="destaque">
+            <h1>Organize suas leituras</h1>
+            <p>Cadastre os livros que você já leu, está lendo ou quer ler. Simples assim.</p>
+            <!-- Botão que é, na verdade, um link estilizado pelo CSS -->
+            <a href="livros.php" class="botao">Ver minha estante</a>
+        </section>
+
+        <!-- Três cartões lado a lado (usando flexbox no CSS) -->
+        <section class="cartoes">
+            <div class="cartao">
+                <h2>📖 Cadastre</h2>
+                <p>Adicione o título e o autor de cada livro da sua estante.</p>
+            </div>
+            <div class="cartao">
+                <h2>⭐ Avalie</h2>
+                <p>Dê uma nota de 0 a 10 para cada leitura que terminar.</p>
+            </div>
+            <div class="cartao">
+                <h2>✅ Acompanhe</h2>
+                <p>Marque o status: Lido, Lendo ou Quero ler.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer>
+        <p>MinhaEstante &copy; 2026 - Projeto acadêmico AV2</p>
+    </footer>
+
+</body>
+</html>
